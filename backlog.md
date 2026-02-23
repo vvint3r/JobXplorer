@@ -50,6 +50,7 @@ Streamline aggregation: consider writing master + salary-filtered JSON/CSV in on
 ### Status: Not Started
 ### Approved: Yes
 Auto-apply safety: add a dry-run flag that stops before form submission but captures field mappings; expand form fillers for Lever/Workday edge cases.
+Add Simplify-assisted manual autofill mode with timeout logging (Timed Out entries re-runnable).
 
 ---
 ## Task 7

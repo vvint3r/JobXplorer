@@ -2,6 +2,7 @@ py_env
 .vscode
 temp
 .venv
+venv/
 downloaded_files
 chromedriver.exe
 stop_words.txt

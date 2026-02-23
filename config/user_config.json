@@ -1,0 +1,45 @@
+{
+  "personal_info": {
+    "first_name": "Vasily",
+    "last_name": "Souzdenkov",
+    "email": "vasily.souzdenkov@gmail.com",
+    "phone": "5104586778",
+    "preferred_name": "Vasily",
+    "zip_code": "85295",
+    "linkedin_profile": "https://linkedin.com/in/vasilysouzdenkov",
+    "location": "United States",
+    "state": "Arizona",
+    "city": "Gilbert",
+    "country": "United States",
+    "address_line_1": "4278 E Dennisport Ave",
+    "device_type": "Cellphone"
+  },
+  "application_info": {
+    "resume_path": "/home/wynt3r/job_search_pipeline/job_search/auto_application/resumes/base_resume/Vasily_Souzdenkov_Resume.pdf",
+    "resume_components_path": "/home/wynt3r/job_search_pipeline/job_search/auto_application/resumes/base_resume/Vasily_Souzdenkov_Resume_components.json",
+    "how_did_you_hear": "LinkedIn",
+    "legally_authorized_to_work": "Yes",
+    "require_visa_sponsorship": "No",
+    "workday_email": "vasily.souzdenkov@gmail.com",
+    "workday_password": "Dennisport23!"
+  },
+  "work_authorization": {
+    "authorized_to_work": true,
+    "requires_sponsorship": false
+  },
+  "voluntary_disclosures": {
+    "gender_identity": "Male",
+    "transgender": "No",
+    "sexual_orientation": "",
+    "race_ethnicity": ["White/Caucasian"],
+    "veteran_status": "No",
+    "disability": "No",
+    "first_generation_professional": "No"
+  },
+  "custom_answers": {
+    "years of experience": "10+ years",
+    "why interested": "I'm interested in this opportunity because it aligns with my expertise in data analytics and business intelligence."
+  }
+}
+
+

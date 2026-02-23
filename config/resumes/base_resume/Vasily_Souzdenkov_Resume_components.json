@@ -1,0 +1,152 @@
+{
+  "personal_info": {
+    "first_name": "Vasily",
+    "last_name": "Souzdenkov",
+    "full_name": "Vasily Souzdenkov",
+    "email": "vasily.souzdenkov@gmail.com",
+    "phone": "+1 (510) 458-6778",
+    "phone_formatted": "5104586778",
+    "location": "Gilbert, AZ, USA",
+    "city": "Gilbert",
+    "state": "AZ",
+    "country": "USA",
+    "linkedin": "linkedin.com/in/vasilysouzdenkov"
+  },
+
+  "professional_summary": "Marketing Analytics leader with 15 years of experience in developing and executing analytics strategies, driving cross-functional solutions, and delivering measurable business outcomes for various organizations - both early-stage startups and global enterprise.",
+
+  "work_experience": [
+    {
+      "job_title": "Marketing Analytics Consultant",
+      "company": "Self-Employed Consultant",
+      "location": "Gilbert, AZ, USA",
+      "currently_work_here": true,
+      "from": {
+        "month": "01",
+        "year": "2023"
+      },
+      "to": {
+        "month": "",
+        "year": ""
+      },
+      "role_description": "• Consulted with Meta (B2B), Shopify (B2B), SoFi (B2B2C), Affirm (B2C), Greenhouse (B2C), and various startups\n• Led strategic marketing analytics initiatives, developing dashboards and automated reporting systems to drive data-informed decisions\n• Managed experimentation programs including A/B testing and multivariate testing frameworks, focusing on revenue optimization, customer retention strategies, and advanced user funnel analysis\n• Architected attribution models (MTA/MMM) and regression analysis frameworks for measurement accuracy and forecasting capabilities for optimizing marketing budget & ROI\n• Key Results: Shopify (Client '24): Drove $2.5M incremental revenue through optimization of marketing channels and advanced attribution modeling, achieving 165% ROAS\n• Course Hero (Client '23): Reduced customer acquisition costs by 25% while increasing conversion rates by 15% through competitive analysis, marketing channel and user funnel optimizations"
+    },
+    {
+      "job_title": "Marketing Analytics, Group Manager",
+      "company": "Adobe",
+      "location": "Gilbert, AZ, USA",
+      "currently_work_here": false,
+      "from": {
+        "month": "01",
+        "year": "2019"
+      },
+      "to": {
+        "month": "01",
+        "year": "2023"
+      },
+      "role_description": "• Led a lean analytics team of 7; implementing advanced attribution (MTA), media mix models (MMM), and predictive analytics forecasting for marketing budget optimization\n• Architected end-to-end measurement strategies and reporting mechanisms; including automating data collection, building data-driven decision models - for scaling marketing strategy and execution\n• Established strategic analytics methodologies encompassing descriptive, predictive, and prescriptive analytics, providing actionable insights for customer behavior analysis, marketing performance optimization, and channel spend effectiveness\n• Key Results: Generated $800M in incremental revenue exceeding forecasts by 30% with a $12M budget while maintaining an optimal CAC of $18\n• Increased organic channel revenue by 85% YoY through implementation of advanced attribution modeling and SEO optimization, reducing paid media dependency by 35%\n• Achieved 14% improvement in conversion rates across channels by developing and deploying multivariate testing framework, resulting in $45M incremental revenue"
+    },
+    {
+      "job_title": "Director Marketing Analytics",
+      "company": "Credit Sesame",
+      "location": "San Francisco, CA, USA",
+      "currently_work_here": false,
+      "from": {
+        "month": "01",
+        "year": "2012"
+      },
+      "to": {
+        "month": "01",
+        "year": "2019"
+      },
+      "role_description": "• Led the marketing analytics strategy, team growth, and scalable analytics frameworks and data models for performance measurement and optimization across all marketing channels\n• Integrated attribution modeling (MTA), creating integrated dashboards and visualizations for performance metrics tracking, while establishing robust experimentation frameworks for continuous testing for acquisition and conversions to optimize our media mix model (MMM)\n• Responsible for strategic communications to leadership using synthesized complex analytical insights into actionable recommendations for marketing investment decisions\n• Key Results: Implemented media mix modeling that optimized marketing spend allocation across various channels - optimizing for conversion performance; scaling user growth from 30M to 70M while maintaining CAC at $12 (within expected forecast of $10 to $15 with scale)\n• Supported monthly revenue growth by 140% over 5 years; scaling subscription growth from 10M to 100M+ users - optimizing average monthly marketing spend of $1.5M"
+    }
+  ],
+
+  "education": [
+    {
+      "school_or_university": "Arizona State University",
+      "degree": "Master's",
+      "field_of_study": "Business Analytics",
+      "from": {
+        "month": "01",
+        "year": "2019"
+      },
+      "to": {
+        "month": "01",
+        "year": "2021"
+      },
+      "gpa": null
+    },
+    {
+      "school_or_university": "New York University",
+      "degree": "Bachelor's",
+      "field_of_study": "Information Systems",
+      "from": {
+        "month": "01",
+        "year": "2011"
+      },
+      "to": {
+        "month": "01",
+        "year": "2015"
+      },
+      "gpa": null
+    }
+  ],
+
+  "skills": [
+    "Tableau",
+    "Power BI",
+    "Looker",
+    "Hubspot",
+    "Google Analytics",
+    "Amplitude",
+    "Mixpanel",
+    "Branding/Brand Strategy",
+    "Excel/Numbers/Sheets",
+    "Business Analytics",
+    "Marketing",
+    "Data Analysis",
+    "SEO",
+    "Facebook Ads",
+    "Google AdWords",
+    "Lead Generation",
+    "Management",
+    "PowerPoint/Keynote/Slides",
+    "Marketing Analytics",
+    "Data Visualization",
+    "Data Insights",
+    "A/B Testing",
+    "Multivariate Testing",
+    "Attribution Modeling",
+    "Media Mix Modeling",
+    "Predictive Analytics",
+    "Regression Analysis"
+  ],
+
+  "accomplishments": [
+    {
+      "company": "Shopify",
+      "type": "Client",
+      "description": "Increased ROAS by 6.5% by identifying and doubling down on high-converting customer segments using advanced attribution modeling"
+    },
+    {
+      "company": "Adobe",
+      "type": "Employee",
+      "description": "Generated $80M in incremental revenue exceeding forecasts by 30% with a $12M budget while maintaining an optimal CAC of $18"
+    },
+    {
+      "company": "Credit Sesame",
+      "type": "Employee",
+      "description": "Achieved revenue growth from $15M to $25M over 5 years, scaling subscription growth from 10M to 100M+ users, managing an average monthly budget of $5M"
+    }
+  ],
+
+  "metadata": {
+    "total_years_experience": 15,
+    "source_file": "Vasily_Souzdenkov_Resume.pdf",
+    "last_updated": "2025-12-11",
+    "version": "1.0"
+  }
+}
+

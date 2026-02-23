@@ -1,0 +1,12 @@
+{
+  "_comment": "Supplementary terms — skills, tools, and knowledge relevant to your background but NOT on your resume. The alignment scorer uses these as a secondary positive signal.",
+  "_instructions": "Add items below. 'proficiency' can be: expert | advanced | intermediate | beginner. 'type' can be: skill | tool | function | methodology | domain | soft_skill | certification | concept.",
+  "terms": [
+    {
+      "term": "example_term",
+      "type": "skill",
+      "proficiency": "advanced",
+      "notes": "Replace this with your own supplementary terms"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "job_title": "marketing_analytics",
+    "timestamp": "2026-02-23 12:16:32",
+    "total_unique_jobs": 2,
+    "new_jobs_added_this_run": 3,
+    "last_updated": "2026-02-23 12:16:32",
+    "deduplication_strategy": "job_url + company_title_combination"
+  },
+  "jobs": [
+    {
+      "date_extracted": "2026-02-23 12:16:32",
+      "job_id": "6ad35a1f-cb0d-41ea-9d6d-79510b8827d8",
+      "company_title": "INSPYR Solutions",
+      "job_title": "Marketing Analytics Program Manager",
+      "job_url": "https://www.linkedin.com/jobs/view/4375042664/",
+      "salary_range": "$55/hr - $75/hr · 4 benefits",
+      "location": "United States (Remote)",
+      "remote_status": "Not Specified",
+      "description": "-",
+      "days_since_posted": NaN,
+      "application_url": "Not Available"
+    },
+    {
+      "date_extracted": "2026-02-23 12:16:32",
+      "job_id": "7e3e9d17-243b-4f95-9cbe-3db78335afaa",
+      "company_title": "Veeva Systems",
+      "job_title": "Product Expert - Marketing Analytics",
+      "job_url": "https://www.linkedin.com/jobs/view/4165798385/",
+      "salary_range": "$55K/yr - $175K/yr",
+      "location": "Philadelphia, PA (Remote)",
+      "remote_status": "Not Specified",
+      "description": "-",
+      "days_since_posted": NaN,
+      "application_url": "Not Available"
+    }
+  ]
+}

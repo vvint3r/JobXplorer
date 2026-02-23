@@ -1,0 +1,32 @@
+{
+  "total_jobs": 2,
+  "title_terms": {
+    "marketing": 2,
+    "analytics": 2,
+    "program": 1,
+    "manager": 1,
+    "marketing analytics program manager": 1,
+    "product": 1,
+    "expert": 1,
+    "product expert marketing analytics": 1
+  },
+  "description_terms": {},
+  "phrases": {},
+  "companies": {
+    "INSPYR Solutions": 1,
+    "Veeva Systems": 1
+  },
+  "locations": {
+    "United States (Remote)": 1,
+    "Philadelphia, PA (Remote)": 1
+  },
+  "phrases_technical_skill": {},
+  "phrases_tools_platforms": {},
+  "phrases_analytics_function": {},
+  "phrases_soft_skill": {},
+  "phrases_data_management": {},
+  "phrases_domain_expertise": {},
+  "phrases_methodology_approach": {},
+  "phrases_uncategorized": {},
+  "timestamp": "20260223_121636"
+}

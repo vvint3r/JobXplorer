@@ -62,6 +62,7 @@ nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.4.127
 openai==1.12.0
+httpx>=0.25.0,<0.28.0
 outcome==1.3.0.post0
 packaging==24.2
 pandas==2.2.3
