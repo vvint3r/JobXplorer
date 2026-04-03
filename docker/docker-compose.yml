@@ -1,0 +1,104 @@
+version: "3.8"
+
+services:
+  db:
+    image: supabase/postgres:15.6.1.120
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: jobxplore
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  browserless:
+    image: browserless/chrome:latest
+    ports:
+      - "3001:3000"
+    environment:
+      MAX_CONCURRENT_SESSIONS: 3
+      CONNECTION_TIMEOUT: 300000
+      MAX_QUEUE_LENGTH: 10
+    shm_size: "2gb"
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../apps/api/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@db:5432/jobxplore
+      DATABASE_URL_SYNC: postgresql://postgres:postgres@db:5432/jobxplore
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      BROWSERLESS_URL: http://browserless:3000
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ../apps/api/src:/app/src  # hot-reload
+    command: ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.worker
+    env_file:
+      - ../apps/api/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@db:5432/jobxplore
+      DATABASE_URL_SYNC: postgresql://postgres:postgres@db:5432/jobxplore
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      BROWSERLESS_URL: http://browserless:3000
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      browserless:
+        condition: service_started
+    volumes:
+      - ../apps/api/src:/app/src
+
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.web
+    ports:
+      - "3000:3000"
+    env_file:
+      - ../apps/web/.env.local
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - api
+    volumes:
+      - ../apps/web/src:/app/src  # hot-reload
+      - ../apps/web/public:/app/public
+
+volumes:
+  pgdata:

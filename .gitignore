@@ -55,7 +55,12 @@ google-chrome-stable_current_amd64.deb
 
 # Repo-specific secret/config artifacts
 job_search/auto_application/user_config.json
+config/user_config.json
 archives/JobSearch_Pipeline/jobstyr__jsr/devenv_jobstyr/growthalytics-bb8b8f65eee3.json
+
+# Generated data (large files, user-specific)
+data/
+config/resumes/
 
 # Auth cookies / session artifacts
 **/*cookies*.txt

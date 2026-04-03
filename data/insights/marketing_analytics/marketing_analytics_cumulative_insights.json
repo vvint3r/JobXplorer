@@ -1,5 +1,5 @@
 {
-  "total_jobs": 2,
+  "total_jobs": 3,
   "title_terms": {
     "marketing": 2,
     "analytics": 2,
@@ -28,12 +28,12 @@
   "phrases_domain_expertise": {},
   "phrases_methodology_approach": {},
   "phrases_uncategorized": {},
-  "last_updated": "2026-02-23 12:16:36",
-  "analysis_runs": 1,
+  "last_updated": "2026-02-25 11:20:55",
+  "analysis_runs": 2,
   "summary": {
-    "total_jobs_analysed": 2,
-    "analysis_runs": 1,
-    "last_updated": "2026-02-23 12:16:36",
+    "total_jobs_analysed": 3,
+    "analysis_runs": 2,
+    "last_updated": "2026-02-25 11:20:55",
     "top_description_terms": [],
     "top_title_terms": [
       {

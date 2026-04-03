@@ -1,7 +1,7 @@
 {
   "metadata": {
     "job_title": "marketing_analytics",
-    "timestamp": "2026-02-23 12:16:32",
+    "timestamp": "2026-02-25 11:20:55",
     "total_jobs": 1,
     "min_salary_threshold": "$175K",
     "filter_type": "salary_range + exclude_engineering",
@@ -22,7 +22,14 @@
       "remote_status": "Not Specified",
       "description": "-",
       "days_since_posted": NaN,
-      "application_url": "Not Available"
+      "application_url": "Not Available",
+      "alignment_score": NaN,
+      "alignment_grade": NaN,
+      "top_gaps": NaN,
+      "company": null,
+      "date_posted": NaN,
+      "remote": null,
+      "salary": null
     }
   ]
 }

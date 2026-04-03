@@ -15,8 +15,8 @@
     "device_type": "Cellphone"
   },
   "application_info": {
-    "resume_path": "/home/wynt3r/job_search_pipeline/job_search/auto_application/resumes/base_resume/Vasily_Souzdenkov_Resume.pdf",
-    "resume_components_path": "/home/wynt3r/job_search_pipeline/job_search/auto_application/resumes/base_resume/Vasily_Souzdenkov_Resume_components.json",
+    "resume_path": "/home/wynt3r/CareerOps/JobXplore/config/resumes/base_resume/Vasily_Souzdenkov_Resume.pdf",
+    "resume_components_path": "/home/wynt3r/CareerOps/JobXplore/config/resumes/base_resume/Vasily_Souzdenkov_Resume_components.json",
     "how_did_you_hear": "LinkedIn",
     "legally_authorized_to_work": "Yes",
     "require_visa_sponsorship": "No",

@@ -1,10 +1,10 @@
 {
   "metadata": {
     "job_title": "marketing_analytics",
-    "timestamp": "2026-02-23 12:16:32",
-    "total_unique_jobs": 2,
-    "new_jobs_added_this_run": 3,
-    "last_updated": "2026-02-23 12:16:32",
+    "timestamp": "2026-02-25 11:20:55",
+    "total_unique_jobs": 3,
+    "new_jobs_added_this_run": 0,
+    "last_updated": "2026-02-25 11:20:55",
     "deduplication_strategy": "job_url + company_title_combination"
   },
   "jobs": [
@@ -19,7 +19,14 @@
       "remote_status": "Not Specified",
       "description": "-",
       "days_since_posted": NaN,
-      "application_url": "Not Available"
+      "application_url": "Not Available",
+      "alignment_score": NaN,
+      "alignment_grade": NaN,
+      "top_gaps": NaN,
+      "company": null,
+      "date_posted": NaN,
+      "remote": null,
+      "salary": null
     },
     {
       "date_extracted": "2026-02-23 12:16:32",
@@ -32,7 +39,34 @@
       "remote_status": "Not Specified",
       "description": "-",
       "days_since_posted": NaN,
-      "application_url": "Not Available"
+      "application_url": "Not Available",
+      "alignment_score": NaN,
+      "alignment_grade": NaN,
+      "top_gaps": NaN,
+      "company": null,
+      "date_posted": NaN,
+      "remote": null,
+      "salary": null
+    },
+    {
+      "date_extracted": "2026-02-23 00:00:00",
+      "job_id": null,
+      "company_title": null,
+      "job_title": "-",
+      "job_url": "https://www.linkedin.com/jobs/view/4165798386/",
+      "salary_range": null,
+      "location": "-",
+      "remote_status": null,
+      "description": "-",
+      "days_since_posted": NaN,
+      "application_url": "Not Available",
+      "alignment_score": NaN,
+      "alignment_grade": NaN,
+      "top_gaps": NaN,
+      "company": "-",
+      "date_posted": NaN,
+      "remote": "Onsite",
+      "salary": "-"
     }
   ]
 }
